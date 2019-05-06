@@ -1,0 +1,27 @@
+{
+  "name": "quantumclay.com",
+  "version": "1.0.0",
+  "description": "Static website for quantumclay.com",
+  "main": "index.js",
+  "scripts": {
+    "docs:dev": "vuepress dev docs",
+    "docs:build": "vuepress build docs",
+    "docs:clean": "rm -rf docs/.vuepress/dist/",
+    "rmdsstore": "find . -name '.DS_Store' -print -delete",
+    "deploy": "./deploy.sh",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DoctorBud/quantumclay.com.git"
+  },
+  "author": "Daniel Keith <dan@quantumclay.com> (https://doctorbud.com)",
+  "license": "UNLICENSED",
+  "bugs": {
+    "url": "https://github.com/DoctorBud/quantumclay.com/issues"
+  },
+  "homepage": "https://github.com/DoctorBud/quantumclay.com#readme",
+  "devDependencies": {
+    "vuepress": "^1.0.0-alpha.47"
+  }
+}
