@@ -20,4 +20,15 @@ module.exports = {
       // md.use(require('markdown-it-xxx'))
     },
   },
+
+  themeConfig: {
+    // logo: '/QCLogoHero.png',
+    nav: [
+      { text: 'Home', link: '/' },
+      { text: 'Quantum Clay', link: '/guide/' },
+      { text: 'Smartdown', link: '/smartdown/' },
+      { text: 'InfoClay', link: '/infoclay/' },
+      { text: 'Scape', link: '/scape/' },
+    ],
+  },
 };
